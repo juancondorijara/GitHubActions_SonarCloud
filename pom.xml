@@ -136,6 +136,12 @@
                                     <version>7.0</version>
                                     <type>jar</type>
                                 </artifactItem>
+                                <!--                                <artifactItem>
+                                    <groupId>javax</groupId>
+                                    <artifactId>javaee-api</artifactId>
+                                    <version>${jakartaee}</version>
+                                    <type>jar</type>
+                                </artifactItem>-->
                             </artifactItems>
                         </configuration>
                     </execution>
