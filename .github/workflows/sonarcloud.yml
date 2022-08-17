@@ -1,4 +1,4 @@
-name: GithubActions Y SonarCloud V1
+name: GithubActions Y SonarCloud
 
 on:
   push:
@@ -37,4 +37,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=juancondorijara_CONFLOMARK_V1
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=juancondorijara_GitHubActions_SonarCloud
+
