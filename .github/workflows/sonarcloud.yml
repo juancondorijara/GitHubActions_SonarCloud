@@ -3,7 +3,7 @@ name: GithubActions Y SonarCloud
 on:
   push:
     branches:
-      - main
+      - GitHubActions_SonarCloud
       
 jobs:
   build:
